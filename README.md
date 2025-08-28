@@ -24,37 +24,50 @@ pip install -r requirements.txt
 
 #### Execução Principal
 ```bash
-python main_physics_test.py          # Simulação completa (avançada)
-python physics_test_demo.py          # Versão demonstrativa (recomendada)
+python main.py                       # 🚀 RECOMENDADO: Ponto de entrada principal
 ```
 
-#### Testes Individuais
+#### Execuções Alternativas
 ```bash
-# Testar apenas constantes dinâmicas
-python constants_physics.py
+# Simulação V2.0 diretamente
+python src/main_physics_test_v2.py   # ✅ Sistema validado V2.0
 
-# Testar apenas modelo TARDIS
-python tardis_universe_model.py
+# Versões demonstrativas/teste
+python tests/physics_test_demo.py    # 🧪 Versão demonstrativa
+python tests/quick_improved_test.py  # ⚡ Teste rápido
 
-# Simulação completa da época de Planck
-python planck_epoch_simulator.py
+# Componentes individuais (para desenvolvimento)
+python src/constants_physics.py     # 🔧 Apenas constantes dinâmicas
+python src/tardis_universe_model.py # 🔧 Apenas modelo TARDIS
 ```
 
-### 📁 Estrutura do Projeto
+### 📁 Estrutura do Projeto (Organizada)
 
 ```
 fisica_epoca_plank/
-├── constants_physics.py          # Constantes físicas variáveis
-├── tardis_universe_model.py      # Modelo do universo TARDIS
-├── planck_epoch_simulator.py     # Simulador principal
-├── main_physics_test.py          # Script de execução completa
-├── physics_test_demo.py          # Versão demonstrativa robusta
-├── requirements.txt              # Dependências
-├── resultados/                   # Pasta com todos os resultados
-│   ├── *.json                    # Dados dos testes
-│   ├── *.png                     # Visualizações
-│   └── *.npz                     # Dados numéricos
-└── README.md                     # Este arquivo
+├── main.py                       # 🚀 PONTO DE ENTRADA PRINCIPAL
+├── config.py                     # ⚙️ Configurações do projeto
+├── requirements.txt              # 📦 Dependências Python
+├── setup.py                      # 🔧 Configuração de instalação
+├── README.md                     # 📖 Este arquivo
+├── .gitignore                    # 🚫 Arquivos ignorados pelo Git
+├── src/                          # 💻 CÓDIGO FONTE PRINCIPAL
+│   ├── __init__.py
+│   ├── constants_physics.py         # Constantes físicas dinâmicas
+│   ├── tardis_universe_model.py     # Modelo do universo TARDIS
+│   └── main_physics_test_v2.py      # ✅ SIMULADOR V2.0 VALIDADO
+├── tests/                        # 🧪 Testes e versões demonstrativas
+│   ├── physics_test_demo.py         # Versão demonstrativa
+│   └── quick_improved_test.py       # Teste rápido
+├── resultados/                   # 📊 RESULTADOS DAS SIMULAÇÕES
+│   ├── *.json                        # Dados estruturados
+│   ├── *.png                         # Visualizações científicas
+│   └── *.npz                         # Arrays numéricos
+├── archive/                      # 📁 Versões antigas/não funcionais
+│   ├── main_physics_test.py          # V1.0 (problemas numéricos)
+│   └── planck_epoch_simulator*.py    # Versões intermediárias
+└── docs/                         # 📚 Documentação técnica
+    └── TECHNICAL_DOCUMENTATION.md   # Documentação detalhada
 ```
 
 ### 🧮 Componentes Científicos
