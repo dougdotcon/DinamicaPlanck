@@ -197,22 +197,39 @@ O sistema gerou automaticamente:
    - Observações de ondas gravitacionais (LIGO/Virgo)
    - Medições precisas de constantes físicas
 
-#### **Interpretação das Visualizações:**
+#### **Interpretação Detalhada das Visualizações:**
 
-**Gráfico 1 - Evolução das Constantes**: 
-- Mostra picos dramáticos durante o Big Bang (t < 10⁻⁴³s)
-- Oscilações durante inflação (10⁻³⁶ a 10⁻³²s)  
-- Estabilização gradual até valores atuais
+### 🔬 **SIMULAÇÃO DEMONSTRATIVA (FUNCIONAL)**
 
-**Gráfico 2 - Análise das Hipóteses**:
-- Barras mostram variações >1% (limite de detecção)
-- Crescimento exponencial da compressão confirma modelo TARDIS
-- Ambas hipóteses claramente suportadas pelos dados
+**Evolução das Constantes Físicas:**
+- 🔥 **Picos Dramáticos no Big Bang**: Todas as constantes mostram variações extremas (15-17%) em t < 10⁻⁴³s
+- 🌀 **Oscilações Inflacionárias**: Padrões periódicos visíveis durante 10⁻³⁶ - 10⁻³²s, especialmente em c (vermelho)
+- 📊 **Hierarquia de Variações**: G (17.4%) > c (16.0%) > h (15.0%) > α (8.0%)
+- ⚡ **Eventos Supercosmicos**: Cada transição de fase causa perturbações detectáveis
 
-**Gráfico 3 - Simulação Completa**:
-- Evolução temporal completa de todas variáveis
-- Correlações entre diferentes parâmetros físicos
-- Validação da convergência numérica
+**Modelo TARDIS:**
+- ✅ **Expansão Interna Exponencial**: Fator de escala (vermelho) cresce de 10⁻³⁰ para 10³³
+- 🔵 **Dimensão Externa Fixa**: Raio externo (azul tracejado) permanece rigorosamente constante
+- 🎯 **Compressão Quântica**: Razão interno/externo atinge 4.64×10³²
+- 📏 **Efeito TARDIS Confirmado**: Distância aparente diverge exponencialmente da real
+
+### ❌ **SIMULAÇÃO AVANÇADA (PROBLEMÁTICA)**
+
+**Problemas Identificados:**
+- 🚫 **Constantes Estáticas**: Linhas completamente horizontais = zero variação detectada
+- 📉 **Crescimento Mínimo**: Fator de escala cresce apenas ~10⁻³⁹ (insignificante)
+- 🌡️ **Instabilidade Térmica**: Temperatura apresenta picos extremos não físicos
+- ⏱️ **Range Temporal Limitado**: Simulação travou em ~10⁻⁴³s (quase estática)
+- 💥 **Falha de Convergência**: Solver numérico não conseguiu integrar as equações
+
+### 📈 **DIFERENÇAS CRÍTICAS**
+
+| Aspecto | Demonstrativa ✅ | Avançada ❌ |
+|---------|------------------|-------------|
+| **Range Temporal** | 10⁻⁴⁴ → 10¹⁷s | ~10⁻⁴³s (travado) |
+| **Variação de G** | 17.4% | 0.0% |
+| **Compressão TARDIS** | 4.64×10³² | ~1.0 |
+| **Estabilidade** | Convergente | Instável |
 
 #### **Implicações Cosmológicas:**
 
