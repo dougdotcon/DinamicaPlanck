@@ -10,7 +10,7 @@
 
 Este projeto implementa simulações computacionais para testar duas hipóteses revolucionárias sobre a física fundamental do universo durante a época de Planck, agora **completamente estendido** com hipóteses complementares, estratégias de detecção experimental, implicações tecnológicas e artigo científico pronto para publicação.
 
-## 🎯 HIPÓTESES VALIDADAS
+## HIPÓTESES VALIDADAS
 
 ### [1] LEIS FÍSICAS DINÂMICAS ✅ CONFIRMADA
 ```
@@ -30,7 +30,7 @@ Este projeto implementa simulações computacionais para testar duas hipóteses 
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-## 🚀 EXTENSÕES DESENVOLVIDAS
+## EXTENSÕES DESENVOLVIDAS
 
 ### [3] HIPÓTESES COMPLEMENTARES ✅ 5 TEORIAS
 ```
@@ -79,7 +79,7 @@ Este projeto implementa simulações computacionais para testar duas hipóteses 
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-## 📦 INSTALAÇÃO E EXECUÇÃO
+## INSTALAÇÃO E EXECUÇÃO
 
 ### Dependências
 ```bash
@@ -116,7 +116,7 @@ python src/constants_physics.py     # Apenas constantes dinâmicas
 python src/tardis_universe_model.py # Apenas modelo TARDIS
 ```
 
-## 🗂️ ESTRUTURA COMPLETA DO PROJETO
+## ESTRUTURA COMPLETA DO PROJETO
 
 ```
 fisica_epoca_plank/
